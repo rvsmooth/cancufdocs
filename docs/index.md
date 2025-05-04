@@ -3,4 +3,13 @@
 ## **Motorola G54/G64 (cancuf) Documentations**
 
 Hii there,
-Welcome to documentations page for cancuf
+Welcome to the documentations and guides page for cancuf
+
+- Follow the instructions with patience.
+
+- Have a great day :)
+
+### Available Documentations
+
+- [Bootloader Unlock](./guides/bl_unlock.md)
+- [Custom recovery and custom ROM Flashing](./guides/bl_unlock.md)
