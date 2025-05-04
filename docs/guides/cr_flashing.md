@@ -1,0 +1,58 @@
+# **Flashing custom recovery and custom ROMs**
+
+## Flashing Recovery  
+
+- Download your recovery image from your preferred rom post and place it in platform-tools folder
+- Boot your device to [bootloader mode](bl_unlock.md#3booting-to-booloader-mode)
+- Flash the recovery image  
+      - Type the below command in [command prompt](bl_unlock.md#step-2-setup-platform-tools) and hit enter to flash the custom recovery.
+
+```
+fastboot flash vendor_boot recovery.img
+```
+
+## Reboot to recovery mode
+
+- Type the below command in [command prompt](bl_unlock.md#step-2-setup-platform-tools) and hit enter to reboot into `recovery mode`
+
+```
+fastboot reboot recovery 
+```
+
+The phone will reboot into `recovery mode` and will look like something this
+
+![Bootloader](../assets/mobile_screenshots/recovery.png.png){ style="width: 50%; display: block; margin-left: auto; margin-right: auto;" }
+
+## Flashing ROM
+
+- **Download the ROM**:
+      - Download the ROM of your choice. Verify the [MD5 checksum](https://www.geeksforgeeks.org/md5sum-linux-command/) to verify package integrity.
+
+- **Format Data**:
+      - Format data as required by the new ROM.
+
+- **Apply Update in Recovery**:
+      - Boot into recovery mode.
+      - Select "Apply update".
+
+![Apply update](../assets/mobile_screenshots/apply_update.png.png){ style="width: 50%; display: block; margin-left: auto; margin-right: auto;" }
+
+- **Choose Update Source**:
+
+      - Select either pendrive, SD card, or ADB sideload.
+      - If using a PC, type: `adb sideload <rom.zip>`.
+      - Replace `<rom.zip>` with the filename you downloaded, if you haven't used it yet.
+
+- **Flash ROM**:
+      - The process will proceed to 47% and then ask if you want to reboot to flash additional packages. Select "Yes" or "No". It doesn't matter what you choose.
+
+![Flah rom](../assets/mobile_screenshots/Flash.png.png){ style="width: 50%; display: block; margin-left: auto; margin-right: auto;" }
+
+![Reboot options](../assets/mobile_screenshots/Reboot_yes_or_no.jpg.png){ style="width: 50%; display: block; margin-left: auto; margin-right: auto;" }
+
+- **Reboot to System**  
+
+      - Reboot your phone to the system.
+
+- **Enjoy New ROM**:
+      - Your new ROM is now installed and ready to use.
