@@ -1,1 +1,29 @@
 site_name: My Docs
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Guides:
+      - Bootloader Unlock: guides/bl_unlock.md
+      - Custom ROM Flashing: guides/cr_flashing.md
+
+theme:
+  name: 'material'
+  palette:
+    - scheme: default
+      primary: 'indigo'
+      accent: 'indigo'
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: 'indigo'
+      accent: 'indigo'
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+
+markdown_extensions:
+  - attr_list
