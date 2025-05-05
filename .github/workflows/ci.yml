@@ -26,3 +26,12 @@ jobs:
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --force
 
+      - name: Build MkDocs site
+        run: mkdocs build
+
+      - name: Deploy with Wrangler
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy ./site --project-name=cancunf --branch=main
