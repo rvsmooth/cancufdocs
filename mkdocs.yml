@@ -6,6 +6,7 @@ nav:
   - Guides:
       - Bootloader Unlock: guides/bl_unlock.md
       - Custom ROM Flashing: guides/cr_flashing.md
+      - Fix Empty Slots: guides/fix_emptysl.md
   - About: about.md
 
 theme:

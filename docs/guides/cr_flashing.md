@@ -37,7 +37,7 @@ The phone will reboot into `recovery mode` and will look like something this
 ## Flashing ROM
 
 !!! warning "Warning"
-     Make sure that any slot must not be empty, means if u have ever used blankflash or flashed stock ROM using RSA then make sure u got any ota. Else don't flash.
+     Make sure that any slot must not be [empty](fix_emptysl.md#check-if-you-have-an-empty-slot), means if u have ever used blankflash or flashed stock ROM using RSA then make sure u got any ota. Else don't flash.
 
 - **Download the ROM**:
       - Download the ROM of your choice. Verify the [MD5 checksum](https://www.geeksforgeeks.org/md5sum-linux-command/) to verify package integrity.
