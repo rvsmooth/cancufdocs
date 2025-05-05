@@ -1,4 +1,4 @@
-# **Flashing custom recovery and custom ROMs**
+# Flashing custom recovery and custom ROMs
 
 ## Flashing Recovery  
 

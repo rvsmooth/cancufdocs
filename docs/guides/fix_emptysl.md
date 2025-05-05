@@ -1,6 +1,6 @@
 # Fix empty slot issue in Moto G54 5G
 
-## Requirements
+## Prerequisites
 
 - Tiny fastboot script: [Download](https://mirrors.lolinet.com/software/windows/TinyFastbootScript)
 - Your device firmware (a version older than the one you wish to be): [Download](https://mirrors.lolinet.com/firmware/lenomola/)

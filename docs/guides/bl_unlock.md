@@ -1,6 +1,6 @@
-# **Bootloader Unlocking Guide**
+# Bootloader Unlocking Guide
 
-## Requirements
+## Prerequisites
 
 To follow along the upcoming procedures you need
 
