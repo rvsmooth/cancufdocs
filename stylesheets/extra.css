@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "Adwaita Regular";
+  src: url("../assets/fonts/AdwaitaSans-Regular.ttf");
+}
+@font-face {
+  font-family: "Adwaita Mono";
+  src: url("../assets/fonts/AdwaitaMono-Bold.ttf");
+}
+
+[data-md-color-scheme="default"] {
+  @extend %root;
+
+  --md-default-bg-color:           #c8d3f5;
+  --md-default-fg-color:           #222436;
+
+  --md-primary-fg-color:            #222436;
+  --md-primary-fg-color--light:     #82aaff;
+  --md-primary-fg-color--dark:      #65bcff;
+  --md-primary-bg-color:            #c8d3f5;
+  --md-primary-bg-color--light:     #c8d3f5;  
+
+  --md-accent-fg-color:             #2f334d;
+  --md-accent-fg-color--transparent:#65bcff66;  
+  --md-accent-bg-color:             #c8d3f5;
+  --md-accent-bg-color--light:      #c8d3f5;  
+
+  --md-code-fg-color:                  #c8d3f5;
+  --md-code-bg-color:                  #737aa2;
+  --md-typeset-a-color:                #3e68d7;
+  --md-text-font: Adwaita Regular;
+  --md-code-font: Adwaita Mono;
+
+}
+
+[data-md-color-scheme="default"] .md-typeset h1 {
+  color: #222436;
+  font-weight: 600;
+}
+
+ [data-md-color-scheme="default"] .md-typeset .admonition {
+  border-radius: 10px;
+  margin: 1.5em 0;
+  border: 1px solid #e1e4e8;
+  background: inherit;
+  transition: box-shadow 0.2s;
+}
+
+ [data-md-color-scheme="default"] .md-typeset .admonition.info {
+  border-color: #1e66f5;
+  color: #1e66f5;
+}
+[data-md-color-scheme="default"] .md-typeset .admonition.info > .admonition-title {
+  color: #1e66f5;
+}
+
+[data-md-color-scheme="default"] .md-typeset .admonition.success {
+  border-color: #40a02b;
+  color: #40a02b;
+}
+[data-md-color-scheme="default"] .md-typeset .admonition.success > .admonition-title {
+  color: #40a02b;
+}
+
+[data-md-color-scheme="default"] .md-typeset .admonition.warning {
+  border-color: #fe640b;
+  color: #fe640b;
+}
+[data-md-color-scheme="default"] .md-typeset .admonition.warning > .admonition-title {
+  color: #fe640b;
+}
+
+[data-md-color-scheme="default"] .md-typeset .admonition.error {
+  border-color: #d20f39;
+  color: #d20f39;
+}
+[data-md-color-scheme="default"] .md-typeset .admonition.error > .admonition-title {
+  color: #d20f39;
+}
+
+
+
+[data-md-color-scheme="slate"] {
+  @extend %root;
+  --md-default-fg-color:           #c8d3f5;
+  --md-default-bg-color:           #222436;
+
+  --md-slate-fg-color:           #82aaff;
+  --md-primary-fg-color:            #82aaff;
+
+  --md-primary-fg-color--light:     #82aaff;
+  --md-primary-fg-color--dark:      #65bcff;
+  --md-primary-bg-color:            #222436;
+  --md-primary-bg-color--light:     #222436;  /* 0.7 alpha = B3 */
+
+  --md-accent-fg-color:                #c8d3f5;
+  --md-accent-fg-color--transparent:   #545c7e;
+  --md-accent-bg-color:                #82aaff;
+
+  --md-code-fg-color:                  #222436;
+  --md-code-bg-color:                  #737aa2;
+  --md-typeset-a-color:                #7aa2f7;
+
+--md-text-font: "Adwaita Regular";
+--md-code-font: "Adwaita Mono";
+}
+
+[data-md-color-scheme="slate"] .md-typeset h1 {
+  color: #82aaff;
+  font-weight: 600;
+}
+
+ [data-md-color-scheme="slate"] .md-typeset .admonition {
+  border-radius: 10px;
+  margin: 1.5em 0;
+  border: 1px solid #e1e4e8;
+  background: inherit;
+  transition: box-shadow 0.2s;
+}
+
+ [data-md-color-scheme="slate"] .md-typeset .admonition.info {
+  border-color: #65bcff;
+  color: #65bcff;
+}
+[data-md-color-scheme="slate"] .md-typeset .admonition.info > .admonition-title {
+  color: #65bcff;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.success {
+  border-color: #73daca;
+  color: #73daca;
+}
+[data-md-color-scheme="slate"] .md-typeset .admonition.success > .admonition-title {
+  color: #73daca;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.warning {
+  border-color: #ff9e64;
+  color: #ff9e64;
+}
+[data-md-color-scheme="slate"] .md-typeset .admonition.warning > .admonition-title {
+  color: #ff9e64;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.error {
+  border-color: #e26a75;
+  color: #e26a75;
+}
+[data-md-color-scheme="slate"] .md-typeset .admonition.error > .admonition-title {
+  color: #e26a75;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
