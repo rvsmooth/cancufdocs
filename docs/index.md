@@ -1,9 +1,9 @@
 # Introduction
 
-## **Motorola G54/G64 (cancuf) Documentations**
+## **Motorola G54/G64 (cancunf) Documentations**
 
 Hii there,  
-Welcome to the documentations and guides page for cancuf
+Welcome to the documentations and guides page for cancunf
 
 - Follow the instructions with patience.
 
