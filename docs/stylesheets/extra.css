@@ -29,35 +29,35 @@
 }
 
  [data-md-color-scheme="default"] .md-typeset .admonition.info {
-  border-color: #3e68d7;
-  color: #3e68d7;
+  border-color: #1e66f5;
+  color: #1e66f5;
 }
 [data-md-color-scheme="default"] .md-typeset .admonition.info > .admonition-title {
-  color: #3e68d7;
+  color: #1e66f5;
 }
 
 [data-md-color-scheme="default"] .md-typeset .admonition.success {
-  border-color: #41a6b5;
-  color: #41a6b5;
+  border-color: #40a02b;
+  color: #40a02b;
 }
 [data-md-color-scheme="default"] .md-typeset .admonition.success > .admonition-title {
-  color: #41a6b5;
+  color: #40a02b;
 }
 
 [data-md-color-scheme="default"] .md-typeset .admonition.warning {
-  border-color: #ff966c;
-  color: rgba(204, 126, 80, 1);
+  border-color: #fe640b;
+  color: #fe640b;
 }
 [data-md-color-scheme="default"] .md-typeset .admonition.warning > .admonition-title {
-  color: #ff966c;
+  color: #fe640b;
 }
 
 [data-md-color-scheme="default"] .md-typeset .admonition.error {
-  border-color: #e26a75;
-  color: #e26a75;
+  border-color: #d20f39;
+  color: #d20f39;
 }
 [data-md-color-scheme="default"] .md-typeset .admonition.error > .admonition-title {
-  color: #e26a75;
+  color: #d20f39;
 }
 
 
