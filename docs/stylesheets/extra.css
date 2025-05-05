@@ -1,4 +1,26 @@
-.md-typeset .admonition {
+[data-md-color-scheme="default"] {
+  @extend %root;
+
+  --md-default-bg-color:           #c8d3f5;
+  --md-default-fg-color:           #222436;
+
+  --md-primary-fg-color:            #222436;
+  --md-primary-fg-color--light:     #82aaff;
+  --md-primary-fg-color--dark:      #65bcff;
+  --md-primary-bg-color:            #c8d3f5;
+  --md-primary-bg-color--light:     #c8d3f5;  
+
+  --md-accent-fg-color:             #2f334d;
+  --md-accent-fg-color--transparent:#89ddff;  
+  --md-accent-bg-color:             #c8d3f5;
+  --md-accent-bg-color--light:      #c8d3f5;  
+
+  --md-code-fg-color:                  #c8d3f5;
+  --md-code-bg-color:                  #737aa2;
+  --md-typeset-a-color:                #09bfdd;
+}
+
+ [data-md-color-scheme="default"] .md-typeset .admonition {
   border-radius: 10px;
   margin: 1.5em 0;
   border: 1px solid #e1e4e8;
@@ -6,35 +28,100 @@
   transition: box-shadow 0.2s;
 }
 
-.md-typeset .admonition.info {
-  border-color: #2196f3;
-  color: #2196f3;
+ [data-md-color-scheme="default"] .md-typeset .admonition.info {
+  border-color: #3e68d7;
+  color: #3e68d7;
 }
-.md-typeset .admonition.info > .admonition-title {
-  color: #2196f3;
-}
-
-.md-typeset .admonition.success {
-  border-color: #00b87b;
-  color: #00b87b;
-}
-.md-typeset .admonition.success > .admonition-title {
-  color: #00b87b;
+[data-md-color-scheme="default"] .md-typeset .admonition.info > .admonition-title {
+  color: #3e68d7;
 }
 
-.md-typeset .admonition.warning {
-  border-color: #ff9800;
-  color: #ff9800;
+[data-md-color-scheme="default"] .md-typeset .admonition.success {
+  border-color: #41a6b5;
+  color: #41a6b5;
 }
-.md-typeset .admonition.warning > .admonition-title {
-  color: #ff9800;
+[data-md-color-scheme="default"] .md-typeset .admonition.success > .admonition-title {
+  color: #41a6b5;
 }
 
-.md-typeset .admonition.error {
-  border-color: #f44336;
-  color: #f44336;
+[data-md-color-scheme="default"] .md-typeset .admonition.warning {
+  border-color: #ff966c;
+  color: rgba(204, 126, 80, 1);
 }
-.md-typeset .admonition.error > .admonition-title {
-  color: #f44336;
+[data-md-color-scheme="default"] .md-typeset .admonition.warning > .admonition-title {
+  color: #ff966c;
+}
+
+[data-md-color-scheme="default"] .md-typeset .admonition.error {
+  border-color: #e26a75;
+  color: #e26a75;
+}
+[data-md-color-scheme="default"] .md-typeset .admonition.error > .admonition-title {
+  color: #e26a75;
+}
+
+
+
+[data-md-color-scheme="slate"] {
+  @extend %root;
+  --md-default-fg-color:           #c8d3f5;
+  --md-default-bg-color:           #222436;
+
+  --md-slate-fg-color:           #82aaff;
+  --md-primary-fg-color:            #82aaff;
+
+  --md-primary-fg-color--light:     #82aaff;
+  --md-primary-fg-color--dark:      #65bcff;
+  --md-primary-bg-color:            #222436;
+  --md-primary-bg-color--light:     #222436;  /* 0.7 alpha = B3 */
+
+  --md-accent-fg-color:             #82aaff;
+
+
+  --md-accent-fg-color--transparent:#89ddff;  /* 0.1 alpha = 1A */
+
+  --md-code-fg-color:                  #222436;
+  --md-code-bg-color:                  #737aa2;
+  --md-typeset-a-color:                #7aa2f7;
+}
+
+ [data-md-color-scheme="slate"] .md-typeset .admonition {
+  border-radius: 10px;
+  margin: 1.5em 0;
+  border: 1px solid #e1e4e8;
+  background: inherit;
+  transition: box-shadow 0.2s;
+}
+
+ [data-md-color-scheme="slate"] .md-typeset .admonition.info {
+  border-color: #65bcff;
+  color: #65bcff;
+}
+[data-md-color-scheme="slate"] .md-typeset .admonition.info > .admonition-title {
+  color: #65bcff;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.success {
+  border-color: #73daca;
+  color: #73daca;
+}
+[data-md-color-scheme="slate"] .md-typeset .admonition.success > .admonition-title {
+  color: #73daca;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.warning {
+  border-color: #ff9e64;
+  color: #ff9e64;
+}
+[data-md-color-scheme="slate"] .md-typeset .admonition.warning > .admonition-title {
+  color: #ff9e64;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.error {
+  border-color: #e26a75;
+  color: #e26a75;
+}
+[data-md-color-scheme="slate"] .md-typeset .admonition.error > .admonition-title {
+  color: #e26a75;
 }
 
