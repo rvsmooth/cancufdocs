@@ -21,18 +21,18 @@ To follow along the upcoming procedures you need
 - Download the platform tools from [Here](http://developer.android.com/sdk/index.html)
 - Locate the downloaded archive and extract it
 
-![platform-tools](../assets/pc_screenshots/platform_tools_folder.png){ style="width: 75%; display: block; margin-left: auto; margin-right: auto;" }
+![platform-tools](assets/pc_screenshots/platform_tools_folder.png){ style="width: 75%; display: block; margin-left: auto; margin-right: auto;" }
 
 - Open a command prompt in platform-tools folder
   - Open the `platform-tools` folder
   - Click on the URL bar of the file explorer
   - Type `cmd` and press Enter
 
-![platform-tools](../assets/pc_screenshots/url.png){ style="width: 75%; display: block; margin-left: auto; margin-right: auto;" }
+![platform-tools](assets/pc_screenshots/url.png){ style="width: 75%; display: block; margin-left: auto; margin-right: auto;" }
 
 - It will open a command prompt window like below
 
-![platform-tools](../assets/pc_screenshots/cmd.png){ style="width: 75%; display: block; margin-left: auto; margin-right: auto;" }
+![platform-tools](assets/pc_screenshots/cmd.png){ style="width: 75%; display: block; margin-left: auto; margin-right: auto;" }
 
 #### Step 3: Unlocking Bootloader
 
@@ -55,7 +55,7 @@ To follow along the upcoming procedures you need
 
 The phone would ultimately boot to a screen like below
 
-![Bootloader](../assets/mobile_screenshots/Bootloader_mode.jpg.png){ style="width: 50%; display: block; margin-left: auto; margin-right: auto;" }
+![Bootloader](assets/mobile_screenshots/Bootloader_mode.jpg.png){ style="width: 50%; display: block; margin-left: auto; margin-right: auto;" }
 
 - Connect your phone to PC if you haven't
 
@@ -83,7 +83,7 @@ The phone would ultimately boot to a screen like below
 - Click "Can my device be unlocked?" and agree to the terms
 - You will receive an unlock key via email.
 
-   ![Motorola-web](../assets/pc_screenshots/Moto_webiste.png){ style="width: 75%; display: block; margin-left: auto; margin-right: auto;" }
+   ![Motorola-web](assets/pc_screenshots/Moto_webiste.png){ style="width: 75%; display: block; margin-left: auto; margin-right: auto;" }
 
 ##### 6. Unlock Bootloader
 

@@ -12,6 +12,6 @@ Welcome to the documentations and guides page for cancunf
 ### Available Documentations
 
 - [Bootloader Unlock](./bl_unlock.md)
-- [Custom recovery and custom ROM Flashing](./bl_unlock.md)
+- [Custom ROM Flashing](./cr_flashing.md)
 - [Fix empty slots](./fix_emptysl.md)
 - [Downgrade](./downgrade.md)

@@ -38,7 +38,7 @@ To fix empty slot, follow the steps below:
 
 - Extract both Tiny Fastboot Script and Firmware in the same folder.
 
-![scripts](../assets/pc_screenshots/Screenshot_(12).png){ style="width: 75%; display: block; margin-left: auto; margin-right: auto;" }
+![scripts](assets/pc_screenshots/Screenshot_(12).png){ style="width: 75%; display: block; margin-left: auto; margin-right: auto;" }
 
 - Run flash.bat
 
@@ -46,7 +46,7 @@ To fix empty slot, follow the steps below:
 
 - Press 5 to flash full firmware and factory reset.
 
-![scripts](../assets/pc_screenshots/TFS.png){ style="width: 75%; display: block; margin-left: auto; margin-right: auto;" }
+![scripts](assets/pc_screenshots/TFS.png){ style="width: 75%; display: block; margin-left: auto; margin-right: auto;" }
 
 - Wait for the process to complete.
 - Reboot your device into system and complete the setup process.

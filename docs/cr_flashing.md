@@ -32,7 +32,7 @@ fastboot reboot recovery
 
 The phone will reboot into `recovery mode` and will look like something this
 
-![Bootloader](../assets/mobile_screenshots/recovery.png.png){ style="width: 50%; display: block; margin-left: auto; margin-right: auto;" }
+![Bootloader](assets/mobile_screenshots/recovery.png.png){ style="width: 50%; display: block; margin-left: auto; margin-right: auto;" }
 
 ## Flashing ROM
 
@@ -51,7 +51,7 @@ The phone will reboot into `recovery mode` and will look like something this
       - Boot into recovery mode.
       - Select "Apply update" opton.
 
-![Apply update](../assets/mobile_screenshots/apply_update.png.png){ style="width: 50%; display: block; margin-left: auto; margin-right: auto;" }
+![Apply update](assets/mobile_screenshots/apply_update.png.png){ style="width: 50%; display: block; margin-left: auto; margin-right: auto;" }
 
 - **Choose Update Source**:
 
@@ -63,9 +63,9 @@ The phone will reboot into `recovery mode` and will look like something this
 - **Flash ROM**:
       - The process will proceed to 47% and then ask if you want to reboot to flash additional packages. Select "Yes" or "No". It doesn't matter what you choose.
 
-![Flah rom](../assets/mobile_screenshots/Flash.png.png){ style="width: 50%; display: block; margin-left: auto; margin-right: auto;" }
+![Flah rom](assets/mobile_screenshots/Flash.png.png){ style="width: 50%; display: block; margin-left: auto; margin-right: auto;" }
 
-![Reboot options](../assets/mobile_screenshots/Reboot_yes_or_no.jpg.png){ style="width: 50%; display: block; margin-left: auto; margin-right: auto;" }
+![Reboot options](assets/mobile_screenshots/Reboot_yes_or_no.jpg.png){ style="width: 50%; display: block; margin-left: auto; margin-right: auto;" }
 
 - **Reboot to System**  
 
