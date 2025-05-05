@@ -3,11 +3,10 @@ copyright: Copyright &copy; 2025 rvsmooth
 
 nav:
   - Home: index.md
-  - Guides:
-      - Bootloader Unlock: guides/bl_unlock.md
-      - Custom ROM Flashing: guides/cr_flashing.md
-      - Fix Empty Slots: guides/fix_emptysl.md
-      - Downgrade: guides/downgrade.md
+  - Bootloader Unlock: bl_unlock.md
+  - Custom ROM Flashing: cr_flashing.md
+  - Fix Empty Slots: fix_emptysl.md
+  - Downgrade: downgrade.md
   - About: about.md
 
 theme:

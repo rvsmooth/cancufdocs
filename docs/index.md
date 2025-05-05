@@ -11,7 +11,7 @@ Welcome to the documentations and guides page for cancuf
 
 ### Available Documentations
 
-- [Bootloader Unlock](./guides/bl_unlock.md)
-- [Custom recovery and custom ROM Flashing](./guides/bl_unlock.md)
-- [Fix empty slots](./guides/fix_emptysl.md)
-- [Downgrade](./guides/downgrade.md)
+- [Bootloader Unlock](./bl_unlock.md)
+- [Custom recovery and custom ROM Flashing](./bl_unlock.md)
+- [Fix empty slots](./fix_emptysl.md)
+- [Downgrade](./downgrade.md)
