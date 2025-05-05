@@ -89,7 +89,7 @@ The phone would ultimately boot to a screen like below
 
 - After receiving the unlock key do the following
   - In the command prompt type `fastboot oem unlock <your_received_key>`
-  - Repace <your_received_key> with the unlock code from the email
+  - Replace <your_received_key> with the unlock code from the email
   - Confirm the unlock on your phone via power buttons
 
 !!! success "Congratulations!!"
