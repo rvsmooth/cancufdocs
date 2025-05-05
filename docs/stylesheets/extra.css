@@ -1,0 +1,40 @@
+.md-typeset .admonition {
+  border-radius: 10px;
+  margin: 1.5em 0;
+  border: 1px solid #e1e4e8;
+  background: inherit;
+  transition: box-shadow 0.2s;
+}
+
+.md-typeset .admonition.info {
+  border-color: #2196f3;
+  color: #2196f3;
+}
+.md-typeset .admonition.info > .admonition-title {
+  color: #2196f3;
+}
+
+.md-typeset .admonition.success {
+  border-color: #00b87b;
+  color: #00b87b;
+}
+.md-typeset .admonition.success > .admonition-title {
+  color: #00b87b;
+}
+
+.md-typeset .admonition.warning {
+  border-color: #ff9800;
+  color: #ff9800;
+}
+.md-typeset .admonition.warning > .admonition-title {
+  color: #ff9800;
+}
+
+.md-typeset .admonition.error {
+  border-color: #f44336;
+  color: #f44336;
+}
+.md-typeset .admonition.error > .admonition-title {
+  color: #f44336;
+}
+

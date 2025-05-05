@@ -21,18 +21,18 @@ To follow along the upcoming procedures you need
 - Download the platform tools from [Here](http://developer.android.com/sdk/index.html)
 - Locate the downloaded archive and extract it
 
-![platform-tools](../assets/pc_screenshots/platform_tools_folder.png)
+![platform-tools](../assets/pc_screenshots/platform_tools_folder.png){ style="width: 75%; display: block; margin-left: auto; margin-right: auto;" }
 
 - Open a command prompt in platform-tools folder
   - Open the `platform-tools` folder
   - Click on the URL bar of the file explorer
   - Type `cmd` and press Enter
 
-![platform-tools](../assets/pc_screenshots/url.png)
+![platform-tools](../assets/pc_screenshots/url.png){ style="width: 75%; display: block; margin-left: auto; margin-right: auto;" }
 
 - It will open a command prompt window like below
 
-![platform-tools](../assets/pc_screenshots/cmd.png)
+![platform-tools](../assets/pc_screenshots/cmd.png){ style="width: 75%; display: block; margin-left: auto; margin-right: auto;" }
 
 #### Step 3: Unlocking Bootloader
 
@@ -83,7 +83,7 @@ The phone would ultimately boot to a screen like below
 - Click "Can my device be unlocked?" and agree to the terms
 - You will receive an unlock key via email.
 
-   ![Motorola-web](../assets/pc_screenshots/Moto_webiste.png)
+   ![Motorola-web](../assets/pc_screenshots/Moto_webiste.png){ style="width: 75%; display: block; margin-left: auto; margin-right: auto;" }
 
 ##### 6. Unlock Bootloader
 
@@ -92,4 +92,5 @@ The phone would ultimately boot to a screen like below
   - Repace <your_received_key> with the unlock code from the email
   - Confirm the unlock on your phone via power buttons
 
-**Congratulations!! Your bootloader has been unlocked successfully**
+!!! success "Congratulations!!"
+    Your bootloader has been unlocked successfully
