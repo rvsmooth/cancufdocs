@@ -56,8 +56,11 @@ The phone will reboot into `recovery mode` and will look like something this
 - **Choose Update Source**:
 
   - Select either pendrive, external SD card, or ADB sideload.
-    - for ADB sideload, type: `adb sideload <rom.zip>`.
-    - Replace `<rom.zip>` with the filename you downloaded, if you haven't used it yet.
+    - for ADB sideload, type 
+```
+adb sideload <rom.zip>
+```
+    - Replace `<rom.zip>` with the filename you downloaded, and hit Enter.
     - for external storage, navigate to the location of the downloaded file and flash.
 
 - **Flash ROM**:

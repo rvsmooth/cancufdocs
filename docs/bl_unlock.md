@@ -51,7 +51,11 @@ To follow along the upcoming procedures you need
   - Method 1: Power off the device and hold the `volume down` and `power` buttons simultaneously.  
   - Method 2: Connect your phone to PC via an USB Cable
     - Open `command prompt` in `platform-tools` folder ([Step 2](#step-1-get-moto-usb-drivers))
-    - Type the command `adb reboot bootloader` and hit Enter
+    - Type -
+```
+adb reboot bootloader
+```
+    - and hit enter
 
 The phone would ultimately boot to a screen like below
 
@@ -62,9 +66,11 @@ The phone would ultimately boot to a screen like below
 ##### 4.Retrieve Unlock Information
 
 - Open a command prompt if not opened ([Step 2](#step-1-get-moto-usb-drivers))
-- Type the command `fastboot oem get_unlock_data` and hit enter.
-- Copy Unlock Data
-  - You will see output similar to this:
+- Type the command given below and hit enter
+```
+fastboot oem get_unlock_data
+``` 
+You will see output similar to this:
 
 ```
 (bootloader) 0A40040192024205#4C4D3556313230
@@ -74,6 +80,7 @@ The phone would ultimately boot to a screen like below
 (bootloader) 0000000
 ```
 
+- Copy Unlock Data
 - Combine these lines into one continuous string without "bootloader" or spaces.  
     e.g., `0A40040192024205#4C4D355631323030373731363031303332323239#BD008A672BA4746C2CE02328A2AC0C39F951A3E5#1F532800020000000000000000000000`
 
@@ -88,7 +95,10 @@ The phone would ultimately boot to a screen like below
 ##### 6. Unlock Bootloader
 
 - After receiving the unlock key do the following
-  - In the command prompt type `fastboot oem unlock <your_received_key>`
+  - In the command prompt type 
+```
+fastboot oem unlock <your_received_key>
+```
   - Replace <your_received_key> with the unlock code from the email
   - Confirm the unlock on your phone via power buttons
 
