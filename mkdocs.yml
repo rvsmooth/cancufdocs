@@ -30,6 +30,8 @@ theme:
         name: Switch to light mode
   features:
     - navigation.tabs
+  font:
+    - false
 
 markdown_extensions:
   - attr_list

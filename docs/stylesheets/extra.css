@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Adwaita Regular";
+  src: url("../assets/fonts/AdwaitaSans-Regular.ttf");
+}
+@font-face {
+  font-family: "Adwaita Mono";
+  src: url("../assets/fonts/AdwaitaMono-Bold.ttf");
+}
+
 [data-md-color-scheme="default"] {
   @extend %root;
 
@@ -11,13 +20,21 @@
   --md-primary-bg-color--light:     #c8d3f5;  
 
   --md-accent-fg-color:             #2f334d;
-  --md-accent-fg-color--transparent:#89ddff;  
+  --md-accent-fg-color--transparent:#65bcff66;  
   --md-accent-bg-color:             #c8d3f5;
   --md-accent-bg-color--light:      #c8d3f5;  
 
   --md-code-fg-color:                  #c8d3f5;
   --md-code-bg-color:                  #737aa2;
   --md-typeset-a-color:                #3e68d7;
+  --md-text-font: Adwaita Regular;
+  --md-code-font: Adwaita Mono;
+
+}
+
+[data-md-color-scheme="default"] .md-typeset h1 {
+  color: #222436;
+  font-weight: 600;
 }
 
  [data-md-color-scheme="default"] .md-typeset .admonition {
@@ -75,14 +92,21 @@
   --md-primary-bg-color:            #222436;
   --md-primary-bg-color--light:     #222436;  /* 0.7 alpha = B3 */
 
-  --md-accent-fg-color:             #82aaff;
-
-
-  --md-accent-fg-color--transparent:#89ddff;  /* 0.1 alpha = 1A */
+  --md-accent-fg-color:                #c8d3f5;
+  --md-accent-fg-color--transparent:   #545c7e;
+  --md-accent-bg-color:                #82aaff;
 
   --md-code-fg-color:                  #222436;
   --md-code-bg-color:                  #737aa2;
   --md-typeset-a-color:                #7aa2f7;
+
+--md-text-font: "Adwaita Regular";
+--md-code-font: "Adwaita Mono";
+}
+
+[data-md-color-scheme="slate"] .md-typeset h1 {
+  color: #82aaff;
+  font-weight: 600;
 }
 
  [data-md-color-scheme="slate"] .md-typeset .admonition {
@@ -124,4 +148,9 @@
 [data-md-color-scheme="slate"] .md-typeset .admonition.error > .admonition-title {
   color: #e26a75;
 }
+
+a:hover {
+  text-decoration: underline;
+}
+
 
