@@ -9,7 +9,7 @@
     You can downgrade from A15 to A14. Don't try to go below May patch because anti-rollback will not allow you to downgrade.
 
 !!! warning "warning"
-    I won't be responsible for bricked/dead device/thermonuclear war/ gharwale mar dalenge. You are doing it at your own risk
+    You are doing it at your own risk, so you must bear the burden of any repercussions that follow.
 
 ## Steps
 
@@ -21,4 +21,3 @@
 
 !!! info "Update"
     Jan patch is supported now.
-
